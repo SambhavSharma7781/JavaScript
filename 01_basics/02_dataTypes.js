@@ -10,9 +10,11 @@ console.log("Sambhav")
 let name ="Sambhav" // string
 let age = 20  // Integer 
 let isLoggedIn = true // Boolean
-
+let state; // undefined 
 
 // number => range = 2 to the power 53
 // bigInt for larger values 
 // string => " "
 // boolean => true or false
+// null => standalone 
+// undefined => value is not defined yet 
