@@ -18,3 +18,9 @@ let state; // undefined
 // boolean => true or false
 // null => standalone 
 // undefined => value is not defined yet 
+// symbol => unique
+
+
+console.log(typeof  null);  //  output -> object
+console.log(typeof  undefined); // output -> undefined
+
