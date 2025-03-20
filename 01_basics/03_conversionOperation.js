@@ -46,14 +46,22 @@ let str1 = "Sambhav"
 let str2 = " Sharma"
 let str3 = str1 + str2
 
-console.log(str3);
+// console.log(str3);
 
-console.log(1 + "2");
-console.log("1" + 2);
-console.log("1" + 2 + 2);
-console.log(2 + 3 + "4");
+// console.log(1 + "2");
+// console.log("1" + 2);
+// console.log("1" + 2 + 2);
+// console.log(2 + 3 + "4");
 
-console.log((3 + 4) * 6 % 4);
+// console.log((3 + 4) * 6 % 4);
+
+let gameCounter = 101
+// ++gameCounter;
+// console.log(gameCounter);
+
+gameCounter++;
+console.log(gameCounter);
+
 
 
 
