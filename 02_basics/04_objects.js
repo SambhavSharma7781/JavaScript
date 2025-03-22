@@ -50,6 +50,34 @@ console.log(Object.entries(tinderuser));
 console.log(tinderuser.hasOwnProperty("email"));
 
 
+const course = {
+    name: "js in hindi",
+    price: 999,
+    instructor: "striver"
+}
+
+// console.log(course.instructor); // we can use this but what if we have to print it more than two times it is still right but we more often use the below one 
+
+// const {instructor}=course 
+const {instructor: ins}=course 
+console.log(ins);
+
+// API 
+
+// {
+//     "coursename": "js in hindi",
+//     "name " :  " sambhav",'
+//     "price' : "free"
+// }
+
+[
+    {},
+    {},
+    {}
+]
+
+
+
 
 
 
