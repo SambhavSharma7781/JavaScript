@@ -31,6 +31,43 @@ function loginmessage (username){
 }
 
 // console.log(loginmessage("sambhav"))
-console.log(loginmessage()) // output -> undefined user just logged in
+// console.log(loginmessage()) // output -> undefined user just logged in
+
+function calculateCartPrice (...num1) { // (...)it's called rest operator it's spread as well
+    return num1
+}
+
+function calculateCartPrice2 (val1 ,val2, ...num1) { 
+    return num1
+}
+
+console.log(calculateCartPrice(11,2,3,4,556))
+console.log(calculateCartPrice2(1,2,3,4,5));
+
+const user ={
+    username : "sambhav ",
+    price : 999
+}
+function handleObject (anyObject){
+    console.log(`user name is ${anyObject.username} and price is ${anyObject.price}`);
+}
+
+// handleObject(user);
+
+handleObject({
+    username: "sam",
+    price: 199
+})
+
+
+const myArray = [121,343,565,323,997]
+
+function returnSecondValue(getArray){
+return getArray[1]
+}
+
+// console.log(returnSecondValue(myArray));
+console.log(returnSecondValue([121,343,565,323,997]));
+
 
 
